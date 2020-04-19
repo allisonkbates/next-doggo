@@ -1,5 +1,44 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
+/***/ "./components/CardLayout.js":
+/*!**********************************!*\
+  !*** ./components/CardLayout.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+var _this = undefined,
+    _jsxFileName = "/Users/allison.mazzetti/Documents/next-doggo/components/CardLayout.js";
+
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+var CardLayout = function CardLayout() {
+  return __jsx("div", {
+    className: "jsx-1852284895",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2,
+      columnNumber: 2
+    }
+  }, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "1852284895",
+    __self: _this
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbGxpc29uLm1henpldHRpL0RvY3VtZW50cy9uZXh0LWRvZ2dvL2NvbXBvbmVudHMvQ2FyZExheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHYSIsImZpbGUiOiIvVXNlcnMvYWxsaXNvbi5tYXp6ZXR0aS9Eb2N1bWVudHMvbmV4dC1kb2dnby9jb21wb25lbnRzL0NhcmRMYXlvdXQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBDYXJkTGF5b3V0ID0gKCkgPT4gKFxuXHQ8ZGl2PlxuXG5cdDxzdHlsZSBqc3g+e2BcblxuXHRgfTwvc3R5bGU+XG5cdDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgQ2FyZExheW91dDsiXX0= */\n/*@ sourceURL=/Users/allison.mazzetti/Documents/next-doggo/components/CardLayout.js */"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (CardLayout);
+
+/***/ }),
+
 /***/ "./components/Header.js":
 /*!******************************!*\
   !*** ./components/Header.js ***!
@@ -25,45 +64,45 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 var Header = function Header() {
   return __jsx("div", {
-    className: "jsx-1599402118",
+    className: "jsx-2755967937",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4,
-      columnNumber: 3
+      columnNumber: 2
     }
   }, __jsx("img", {
-    src: "#",
-    className: "jsx-1599402118",
+    src: "/dog-icon.png",
+    className: "jsx-2755967937",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5,
-      columnNumber: 4
+      columnNumber: 3
     }
-  }), __jsx("nav", {
-    className: "jsx-1599402118",
+  }), " ", __jsx("nav", {
+    className: "jsx-2755967937",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
-      columnNumber: 4
+      columnNumber: 3
     }
   }, __jsx("ul", {
-    className: "jsx-1599402118",
+    className: "jsx-2755967937",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
-      columnNumber: 5
+      columnNumber: 4
     }
   }, __jsx("li", {
-    className: "jsx-1599402118",
+    className: "jsx-2755967937",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8,
-      columnNumber: 6
+      columnNumber: 5
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
@@ -71,23 +110,23 @@ var Header = function Header() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9,
-      columnNumber: 8
+      columnNumber: 6
     }
   }, __jsx("a", {
-    className: "jsx-1599402118",
+    className: "jsx-2755967937",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10,
-      columnNumber: 9
+      columnNumber: 7
     }
   }, "Find a Pup"))), __jsx("li", {
-    className: "jsx-1599402118",
+    className: "jsx-2755967937",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
-      columnNumber: 7
+      columnNumber: 5
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/about",
@@ -95,23 +134,217 @@ var Header = function Header() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
-      columnNumber: 8
+      columnNumber: 6
     }
   }, __jsx("a", {
-    className: "jsx-1599402118",
+    className: "jsx-2755967937",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
-      columnNumber: 9
+      columnNumber: 7
     }
   }, "About"))))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1599402118",
+    id: "2755967937",
     __self: _this
-  }, "div.jsx-1599402118{background-color:#4ABDAC;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbGxpc29uLm1henpldHRpL0RvY3VtZW50cy9uZXh0LWRvZ2dvL2NvbXBvbmVudHMvSGVhZGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW1CaUIsQUFHbUMseUJBQzFCIiwiZmlsZSI6Ii9Vc2Vycy9hbGxpc29uLm1henpldHRpL0RvY3VtZW50cy9uZXh0LWRvZ2dvL2NvbXBvbmVudHMvSGVhZGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcblxuY29uc3QgSGVhZGVyID0gKCkgPT4gKFxuICA8ZGl2PlxuICBcdDxpbWcgc3JjPVwiI1wiPjwvaW1nPlxuICBcdDxuYXY+XG4gIFx0XHQ8dWw+XG4gIFx0XHRcdDxsaT5cblx0XHRcdCAgICA8TGluayBocmVmPVwiL1wiPlxuXHRcdFx0ICAgIFx0PGE+RmluZCBhIFB1cDwvYT5cblx0XHRcdCAgICA8L0xpbms+XG5cdFx0ICAgIDwvbGk+XG5cdFx0ICAgIDxsaT5cblx0XHRcdCAgICA8TGluayBocmVmPVwiL2Fib3V0XCI+XG5cdFx0XHQgICAgXHQ8YT5BYm91dDwvYT5cblx0XHRcdCAgICA8L0xpbms+XG5cdFx0ICAgIDwvbGk+XG4gICAgXHQ8L3VsPlxuICAgIDwvbmF2PlxuICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIGRpdiB7XG4gICAgICAgIFx0YmFja2dyb3VuZC1jb2xvcjogIzRBQkRBQztcbiAgICAgICAgfVxuICAgICAgICBcbiAgICAgIGB9PC9zdHlsZT5cbiAgPC9kaXY+XG5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IEhlYWRlcjsiXX0= */\n/*@ sourceURL=/Users/allison.mazzetti/Documents/next-doggo/components/Header.js */"));
+  }, "div.jsx-2755967937{height:75px;margin:0px;padding:0px 82px;background-color:#4ABDAC;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}nav.jsx-2755967937{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}ul.jsx-2755967937{margin:0;padding:0;list-style:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}li.jsx-2755967937 a.jsx-2755967937{padding-left:12px;font-family:'Arial';font-weight:300;font-size:18px;-webkit-text-decoration:none;text-decoration:none;color:#ffffff;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbGxpc29uLm1henpldHRpL0RvY3VtZW50cy9uZXh0LWRvZ2dvL2NvbXBvbmVudHMvSGVhZGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW1CYSxBQUdnQixBQVVPLEFBR1YsQUFNUyxTQUxSLEdBYkMsTUFtQlMsQ0FMSixJQWJDLFlBY0osR0FLRyxFQWxCUyxjQW1CVixXQWxCRixJQW1CUSx3QkFadEIsZ0JBTUEsVUFPZSxjQUNmLE1BcEJvQixxRUFDVyxtSEFDWCw2RkFDcEIiLCJmaWxlIjoiL1VzZXJzL2FsbGlzb24ubWF6emV0dGkvRG9jdW1lbnRzL25leHQtZG9nZ28vY29tcG9uZW50cy9IZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xuXG5jb25zdCBIZWFkZXIgPSAoKSA9PiAoXG5cdDxkaXY+XG5cdFx0PGltZyBzcmM9XCIvZG9nLWljb24ucG5nXCI+PC9pbWc+IHsvKiBBIEpTWCBjb21tZW50ICovfVxuXHRcdDxuYXY+XG5cdFx0XHQ8dWw+XG5cdFx0XHRcdDxsaT5cblx0XHRcdFx0XHQ8TGluayBocmVmPVwiL1wiPlxuXHRcdFx0XHRcdFx0PGE+RmluZCBhIFB1cDwvYT5cblx0XHRcdFx0XHQ8L0xpbms+XG5cdFx0XHRcdDwvbGk+XG5cdFx0XHRcdDxsaT5cblx0XHRcdFx0XHQ8TGluayBocmVmPVwiL2Fib3V0XCI+XG5cdFx0XHRcdFx0XHQ8YT5BYm91dDwvYT5cblx0XHRcdFx0XHQ8L0xpbms+XG5cdFx0XHRcdDwvbGk+XG5cdFx0XHQ8L3VsPlxuXHRcdDwvbmF2PlxuXHQ8c3R5bGUganN4PntgXG5cdFx0ZGl2IHtcblx0XHRcdGhlaWdodDogNzVweDtcblx0XHRcdG1hcmdpbjogMHB4O1xuXHRcdFx0cGFkZGluZzogMHB4IDgycHg7IFxuXHRcdFx0YmFja2dyb3VuZC1jb2xvcjogIzRBQkRBQztcblx0XHRcdGRpc3BsYXk6IGZsZXg7XG5cdFx0XHRmbGV4LWRpcmVjdGlvbjogcm93O1xuXHRcdFx0anVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuXHRcdFx0YWxpZ24taXRlbXM6IGNlbnRlcjtcblx0XHR9XG5cdFx0bmF2IHtcblx0XHRcdGFsaWduLWl0ZW1zOiBjZW50ZXI7XG5cdFx0fVxuXHRcdHVsIHtcblx0XHRcdG1hcmdpbjogMDtcblx0XHRcdHBhZGRpbmc6IDA7XG5cdFx0XHRsaXN0LXN0eWxlOiBub25lO1xuXHRcdFx0ZGlzcGxheTogZmxleDtcblx0XHR9XG5cdFx0bGkgYSB7XG5cdFx0XHRwYWRkaW5nLWxlZnQ6IDEycHg7XG5cdFx0XHRmb250LWZhbWlseTogJ0FyaWFsJztcblx0XHRcdGZvbnQtd2VpZ2h0OiAzMDA7XG5cdFx0XHRmb250LXNpemU6IDE4cHg7XG5cdFx0XHR0ZXh0LWRlY29yYXRpb246IG5vbmU7XG5cdFx0XHRjb2xvcjogI2ZmZmZmZjtcblx0XHR9XG5cdFx0bGk6aG92ZXIge1xuXHRcdH1cblx0YH08L3N0eWxlPlxuXHQ8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IEhlYWRlcjtcbiJdfQ== */\n/*@ sourceURL=/Users/allison.mazzetti/Documents/next-doggo/components/Header.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./components/Intro.js":
+/*!*****************************!*\
+  !*** ./components/Intro.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+var _this = undefined,
+    _jsxFileName = "/Users/allison.mazzetti/Documents/next-doggo/components/Intro.js";
+
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+var Intro = function Intro() {
+  return __jsx("section", {
+    className: "jsx-2298445410" + " " + "intro",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2,
+      columnNumber: 1
+    }
+  }, __jsx("div", {
+    className: "jsx-2298445410" + " " + "intro-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3,
+      columnNumber: 2
+    }
+  }, __jsx("div", {
+    className: "jsx-2298445410" + " " + "intro-logo",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4,
+      columnNumber: 3
+    }
+  }, __jsx("h1", {
+    className: "jsx-2298445410",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 4
+    }
+  }, "Adopt a ", __jsx("br", {
+    className: "jsx-2298445410",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 16
+    }
+  }), "Doggo"), __jsx("img", {
+    src: "/paws-icon.png",
+    className: "jsx-2298445410" + " " + "intro-paws",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 4
+    }
+  })), __jsx("p", {
+    className: "jsx-2298445410" + " " + "intro-text",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 3
+    }
+  }, "Say something nice about dogs here and how they are the best in the world."), __jsx("button", {
+    className: "jsx-2298445410",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 6
+    }
+  }, "Find Your Pup")), __jsx("div", {
+    className: "jsx-2298445410" + " " + "intro-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 2
+    }
+  }, __jsx("div", {
+    className: "jsx-2298445410" + " " + "intro-img",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 3
+    }
+  }, __jsx("div", {
+    className: "jsx-2298445410" + " " + "intro-badge",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 4
+    }
+  }, __jsx("p", {
+    className: "jsx-2298445410",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 5
+    }
+  }, "Dog of the Day")))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2298445410",
+    __self: _this
+  }, ".intro.jsx-2298445410{padding:0px 82px;display:grid;grid-template-columns:5fr 7fr;--primary-color:#4ABDAC;--primary-hover:#2F8377;--light-color:#ffffff;--primary-font:'Open Sans Condensed',sans-serif;--styled-font:'Shadows Into Light',cursive;}h1.jsx-2298445410{font-family:var(--styled-font);font-size:60px;color:var(--primary-color);line-height:60px;}.intro-left.jsx-2298445410{grid-column:1 / 2;}.intro-text.jsx-2298445410{font-family:var(--primary-font);font-weight:normal;color:var(--primary-color);font-size:18px;margin:0px 75px 30px 0px;}.intro-logo.jsx-2298445410{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.intro-paws.jsx-2298445410{margin:0px 25px;height:78px;}button.jsx-2298445410{background-color:var(--primary-color);color:var(--light-color);font-family:var(--styled-font);border:none;font-size:18px;padding:0px 25px;height:40px;}button.jsx-2298445410:hover{background-color:var(--primary-hover);color:var(--light-color);}.intro-right.jsx-2298445410{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.intro-img.jsx-2298445410{background:url(\"/cover-dog.png\") no-repeat;height:289px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;-webkit-align-items:flex-end;-webkit-box-align:flex-end;-ms-flex-align:flex-end;align-items:flex-end;margin:69px;}.intro-badge.jsx-2298445410{background-color:var(--primary-color);color:var(--light-color);font-family:var(--styled-font);font-size:18px;padding:0px 25px;height:40px;width:190px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0px 194px 20px 0px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbGxpc29uLm1henpldHRpL0RvY3VtZW50cy9uZXh0LWRvZ2dvL2NvbXBvbmVudHMvSW50cm8uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBcUJZLEFBR29CLEFBVWMsQUFNYixBQUdjLEFBT25CLEFBS0csQUFJc0IsQUFTQSxBQUl6QixBQUs4QixBQVNMLGdCQTlCMUIsQ0EvQkMsQ0FnQmQsVUFnQkEsRUEvQitCLENBU2YsQ0FTSSxNQWdCTSxBQVNBLEFBa0JBLEtBVFosR0ExQ2MsS0FTQSxLQWtDZCxJQXBEVyxHQWtDTyxBQVNoQyxBQWtCZ0MsVUFuRGQsQ0FjRSxBQXNCSSxJQTNCUixNQWxCUyxNQVV6QixHQVMwQixDQWViLEFBMkJHLFlBMUJBLEVBbENPLENBNkRMLFNBMUNsQixHQWdCa0IsS0EyQkwsSUE3RHFDLEFBa0QzQixRQWZWLEFBMkJBLEtBeENPLE9BY3BCLEFBMkJjLHVCQW5CTSxLQTNDeUIsOEJBa0RuQixhQWpEMUIsR0E4RHdCLFlBekN4Qiw4QkFzQkEsdUNBT3NCLGtCQWFGLG1GQVpQLFVBYWMsRUFaM0Isd0JBYUEiLCJmaWxlIjoiL1VzZXJzL2FsbGlzb24ubWF6emV0dGkvRG9jdW1lbnRzL25leHQtZG9nZ28vY29tcG9uZW50cy9JbnRyby5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IEludHJvID0gKCkgPT4gKFxuPHNlY3Rpb24gY2xhc3NOYW1lPVwiaW50cm9cIj5cblx0PGRpdiBjbGFzc05hbWU9XCJpbnRyby1sZWZ0XCI+XG5cdFx0PGRpdiBjbGFzc05hbWU9XCJpbnRyby1sb2dvXCI+XG5cdFx0XHQ8aDE+QWRvcHQgYSA8YnI+PC9icj5Eb2dnbzwvaDE+XG5cdFx0XHQ8aW1nIGNsYXNzTmFtZT1cImludHJvLXBhd3NcIiBzcmM9XCIvcGF3cy1pY29uLnBuZ1wiPjwvaW1nPlxuXHRcdDwvZGl2PlxuXHRcdDxwIGNsYXNzTmFtZT1cImludHJvLXRleHRcIj5TYXkgc29tZXRoaW5nIG5pY2UgYWJvdXQgZG9ncyBoZXJlIGFuZCBob3cgdGhleSBhcmUgdGhlIGJlc3QgaW4gdGhlIHdvcmxkLjwvcD5cbiAgIFx0XHQ8YnV0dG9uPkZpbmQgWW91ciBQdXA8L2J1dHRvbj5cblx0PC9kaXY+XG5cdDxkaXYgY2xhc3NOYW1lPVwiaW50cm8tcmlnaHRcIj5cblx0XHQ8ZGl2IGNsYXNzTmFtZT1cImludHJvLWltZ1wiPlxuXHRcdFx0PGRpdiBjbGFzc05hbWU9XCJpbnRyby1iYWRnZVwiPlxuXHRcdFx0XHQ8cD5Eb2cgb2YgdGhlIERheTwvcD5cblx0XHRcdDwvZGl2PlxuXHRcdDwvZGl2PlxuXHQ8L2Rpdj5cblxuXG57LyogXG4qL31cbjxzdHlsZSBqc3g+e2Bcblx0LmludHJvIHtcblx0XHRwYWRkaW5nOiAwcHggODJweDtcblx0XHRkaXNwbGF5OiBncmlkO1xuXHRcdGdyaWQtdGVtcGxhdGUtY29sdW1uczogNWZyIDdmcjtcblx0XHQtLXByaW1hcnktY29sb3I6ICM0QUJEQUM7XG5cdFx0LS1wcmltYXJ5LWhvdmVyOiAjMkY4Mzc3O1xuXHRcdC0tbGlnaHQtY29sb3I6ICNmZmZmZmY7XG5cdFx0LS1wcmltYXJ5LWZvbnQ6ICdPcGVuIFNhbnMgQ29uZGVuc2VkJywgc2Fucy1zZXJpZjtcblx0XHQtLXN0eWxlZC1mb250OiAnU2hhZG93cyBJbnRvIExpZ2h0JywgY3Vyc2l2ZTtcdFxuXHR9XG5cdGgxIHtcblx0XHRmb250LWZhbWlseTogdmFyKC0tc3R5bGVkLWZvbnQpO1xuXHRcdGZvbnQtc2l6ZTogNjBweDtcblx0XHRjb2xvcjogdmFyKC0tcHJpbWFyeS1jb2xvcik7XG5cdFx0bGluZS1oZWlnaHQ6IDYwcHg7XG5cdH1cblx0LmludHJvLWxlZnQge1xuXHRcdGdyaWQtY29sdW1uOiAxIC8gMjtcblx0fVxuXHQuaW50cm8tdGV4dCB7XG5cdFx0Zm9udC1mYW1pbHk6IHZhcigtLXByaW1hcnktZm9udCk7XG5cdFx0Zm9udC13ZWlnaHQ6IG5vcm1hbDtcblx0XHRjb2xvcjogdmFyKC0tcHJpbWFyeS1jb2xvcik7XG5cdFx0Zm9udC1zaXplOiAxOHB4O1xuXHRcdG1hcmdpbjogMHB4IDc1cHggMzBweCAwcHg7XG5cdH1cblx0LmludHJvLWxvZ28ge1xuXHRcdGRpc3BsYXk6IGZsZXg7XG5cdFx0ZmxleC1kaXJlY3Rpb246IHJvdztcblx0XHRhbGlnbi1pdGVtczogY2VudGVyO1xuXHR9XG5cdC5pbnRyby1wYXdzIHtcblx0XHRtYXJnaW46IDBweCAyNXB4O1xuXHRcdGhlaWdodDogNzhweDtcblx0fVxuXHRidXR0b24ge1xuXHRcdGJhY2tncm91bmQtY29sb3I6IHZhcigtLXByaW1hcnktY29sb3IpO1xuXHRcdGNvbG9yOiB2YXIoLS1saWdodC1jb2xvcik7XG5cdFx0Zm9udC1mYW1pbHk6IHZhcigtLXN0eWxlZC1mb250KTtcblx0XHRib3JkZXI6IG5vbmU7XG5cdFx0Zm9udC1zaXplOiAxOHB4O1xuXHRcdHBhZGRpbmc6IDBweCAyNXB4O1xuXHRcdGhlaWdodDogNDBweDtcblx0fVxuXHRidXR0b246aG92ZXIge1xuXHRcdGJhY2tncm91bmQtY29sb3I6IHZhcigtLXByaW1hcnktaG92ZXIpO1xuXHRcdGNvbG9yOiB2YXIoLS1saWdodC1jb2xvcik7XG5cdH1cblx0LmludHJvLXJpZ2h0IHtcblx0XHRkaXNwbGF5OiBmbGV4O1xuXHRcdGp1c3RpZnktY29udGVudDogY2VudGVyO1xuXHRcdGFsaWduLWl0ZW1zOiBjZW50ZXI7XG5cdH1cblx0LmludHJvLWltZyB7XG5cdFx0YmFja2dyb3VuZDogdXJsKFwiL2NvdmVyLWRvZy5wbmdcIikgbm8tcmVwZWF0O1xuXHRcdGhlaWdodDogMjg5cHg7XG5cdFx0ZGlzcGxheTogZmxleDtcblx0XHRmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuXHRcdGp1c3RpZnktY29udGVudDogZmxleC1lbmQ7XG5cdFx0YWxpZ24taXRlbXM6IGZsZXgtZW5kO1xuXHRcdG1hcmdpbjogNjlweDtcblx0fVxuXHQuaW50cm8tYmFkZ2Uge1xuXHRcdGJhY2tncm91bmQtY29sb3I6IHZhcigtLXByaW1hcnktY29sb3IpO1xuXHRcdGNvbG9yOiB2YXIoLS1saWdodC1jb2xvcik7XG5cdFx0Zm9udC1mYW1pbHk6IHZhcigtLXN0eWxlZC1mb250KTtcblx0XHRmb250LXNpemU6IDE4cHg7XG5cdFx0cGFkZGluZzogMHB4IDI1cHg7XG5cdFx0aGVpZ2h0OiA0MHB4O1xuXHRcdHdpZHRoOiAxOTBweDtcblx0XHRkaXNwbGF5OiBmbGV4O1xuXHRcdGp1c3RpZnktY29udGVudDogY2VudGVyO1xuXHRcdGFsaWduLWl0ZW1zOiBjZW50ZXI7XG5cdFx0bWFyZ2luOiAwcHggMTk0cHggMjBweCAwcHg7XG5cdH1cblxuXG5gfTwvc3R5bGU+XG48L3NlY3Rpb24+XG5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IEludHJvOyJdfQ== */\n/*@ sourceURL=/Users/allison.mazzetti/Documents/next-doggo/components/Intro.js */"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Intro);
+
+/***/ }),
+
+/***/ "./components/Layout.js":
+/*!******************************!*\
+  !*** ./components/Layout.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
+/* harmony import */ var _Intro__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Intro */ "./components/Intro.js");
+/* harmony import */ var _CardLayout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CardLayout */ "./components/CardLayout.js");
+var _this = undefined,
+    _jsxFileName = "/Users/allison.mazzetti/Documents/next-doggo/components/Layout.js";
+
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+
+
+
+var Layout = function Layout(props) {
+  return __jsx("div", {
+    className: "jsx-1019483407",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 2
+    }
+  }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 3
+    }
+  }), __jsx(_Intro__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 3
+    }
+  }), __jsx(_CardLayout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 3
+    }
+  }), props.children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "1019483407",
+    __self: _this
+  }, "body{margin:0;padding:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbGxpc29uLm1henpldHRpL0RvY3VtZW50cy9uZXh0LWRvZ2dvL2NvbXBvbmVudHMvTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVVvQixBQUdhLFNBQ0MsVUFDWCIsImZpbGUiOiIvVXNlcnMvYWxsaXNvbi5tYXp6ZXR0aS9Eb2N1bWVudHMvbmV4dC1kb2dnby9jb21wb25lbnRzL0xheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkZXIgZnJvbSAnLi9IZWFkZXInO1xuaW1wb3J0IEludHJvIGZyb20gJy4vSW50cm8nO1xuaW1wb3J0IENhcmRMYXlvdXQgZnJvbSAnLi9DYXJkTGF5b3V0JztcblxuY29uc3QgTGF5b3V0ID0gcHJvcHMgPT4gKFxuXHQ8ZGl2PlxuXHRcdDxIZWFkZXIvPlxuXHRcdDxJbnRybyAvPlxuXHRcdDxDYXJkTGF5b3V0IC8+XG5cdFx0e3Byb3BzLmNoaWxkcmVufVxuXHQ8c3R5bGUganN4IGdsb2JhbD57YFxuXHRcdGJvZHkge1xuXHRcdFx0bWFyZ2luOiAwO1xuXHRcdFx0cGFkZGluZzogMDtcblx0XHR9XG5cdGB9XG5cdDwvc3R5bGU+XG5cdDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0OyJdfQ== */\n/*@ sourceURL=/Users/allison.mazzetti/Documents/next-doggo/components/Layout.js */"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Layout);
 
 /***/ }),
 
@@ -631,6 +864,18 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 var e,t=(e=__webpack_require__(/*! querystring */ "./node_modules/querystring-es3/index.js"))&&"object"==typeof e&&"default"in e?e.default:e,r=/https?|ftp|gopher|file/;function o(e){"string"==typeof e&&(e=g(e));var o=function(e,t,r){var o=e.auth,a=e.hostname,s=e.protocol||"",c=e.pathname||"",h=e.hash||"",p=e.query||"",n=!1;o=o?encodeURIComponent(o).replace(/%3A/i,":")+"@":"",e.host?n=o+e.host:a&&(n=o+(~a.indexOf(":")?"["+a+"]":a),e.port&&(n+=":"+e.port)),p&&"object"==typeof p&&(p=t.encode(p));var l=e.search||p&&"?"+p||"";return s&&":"!==s.substr(-1)&&(s+=":"),e.slashes||(!s||r.test(s))&&!1!==n?(n="//"+(n||""),c&&"/"!==c[0]&&(c="/"+c)):n||(n=""),h&&"#"!==h[0]&&(h="#"+h),l&&"?"!==l[0]&&(l="?"+l),{protocol:s,host:n,pathname:c=c.replace(/[?#]/g,encodeURIComponent),search:l=l.replace("#","%23"),hash:h}}(e,t,r);return""+o.protocol+o.host+o.pathname+o.search+o.hash}var a="http://",s="w.w",c=a+s,h=/^([a-z0-9.+-]*:\/\/\/)([a-z0-9.+-]:\/*)?/i,p=/https?|ftp|gopher|file/;function n(e,t){var r="string"==typeof e?g(e):e;e="object"==typeof e?o(e):e;var s=g(t),n="";r.protocol&&!r.slashes&&(n=r.protocol,e=e.replace(r.protocol,""),n+="/"===t[0]||"/"===e[0]?"/":""),n&&s.protocol&&(n="",s.slashes||(n=s.protocol,t=t.replace(s.protocol,"")));var l=e.match(h);l&&!s.protocol&&(e=e.substr((n=l[1]+(l[2]||"")).length),/^\/\/[^/]/.test(t)&&(n=n.slice(0,-1)));var i=new URL(e,c+"/"),f=new URL(t,i).toString().replace(c,""),u=s.protocol||r.protocol;return u+=r.slashes||s.slashes?"//":"",!n&&u?f=f.replace(a,u):n&&(f=f.replace(a,"")),p.test(f)||~t.indexOf(".")||"/"===e.slice(-1)||"/"===t.slice(-1)||"/"!==f.slice(-1)||(f=f.slice(0,-1)),n&&(f=n+("/"===f[0]?f.substr(1):f)),f}function l(){}l.parse=g,l.format=o,l.resolve=n,l.resolveObject=n;var i=/^https?|ftp|gopher|file/,f=/^(.*?)([#?].*)/,u=/^([a-z0-9.+-]*:)(\/{0,3})(.*)/i,m=/^([a-z0-9.+-]*:)?\/\/\/*/i,v=/^([a-z0-9.+-]*:)(\/{0,2})\[(.*)\]$/i;function d(e){try{return decodeURI(e)}catch(t){return e}}function g(e,r,a){if(void 0===r&&(r=!1),void 0===a&&(a=!1),e&&"object"==typeof e&&e instanceof l)return e;var h=(e=e.trim()).match(f);e=h?d(h[1]).replace(/\\/g,"/")+h[2]:d(e).replace(/\\/g,"/"),v.test(e)&&"/"!==e.slice(-1)&&(e+="/");var p=!/(^javascript)/.test(e)&&e.match(u),n=m.test(e),g="";p&&(i.test(p[1])||(g=p[1].toLowerCase(),e=""+p[2]+p[3]),p[2]||(n=!1,i.test(p[1])?(g=p[1],e=""+p[3]):e="//"+p[3]),3!==p[2].length&&1!==p[2].length||(g=p[1],e="/"+p[3]));var b,y=(h?h[1]:e).match(/(:[0-9]+)/),j="";y&&y[1]&&3===y[1].length&&(e=e.replace(j=y[1],j+"00"));var w=new l,x="",U="";try{b=new URL(e)}catch(t){x=t,g||a||!/^\/\//.test(e)||/^\/\/.+[@.]/.test(e)||(U="/",e=e.substr(1));try{b=new URL(e,c)}catch(e){return w.protocol=g,w.href=g,w}}w.slashes=n&&!U,w.host=b.host===s?"":b.host,w.hostname=b.hostname===s?"":b.hostname.replace(/(\[|\])/g,""),w.protocol=x?g||null:b.protocol,w.search=b.search.replace(/\\/g,"%5C"),w.hash=b.hash.replace(/\\/g,"%5C");var R=e.split("#");!w.search&&~R[0].indexOf("?")&&(w.search="?"),w.hash||""!==R[1]||(w.hash="#"),w.query=r?t.decode(b.search.substr(1)):w.search.substr(1),w.pathname=U+d(b.pathname).replace(/"/g,"%22"),"about:"===w.protocol&&"blank"===w.pathname&&(w.protocol="",w.pathname=""),x&&"/"!==e[0]&&(w.pathname=w.pathname.substr(1)),g&&!i.test(g)&&"/"!==e.slice(-1)&&"/"===w.pathname&&(w.pathname=""),w.path=w.pathname+w.search,w.auth=[b.username,b.password].map(decodeURIComponent).filter(Boolean).join(":"),w.port=b.port,j&&(w.host=w.host.replace(j+"00",j),w.port=w.port.slice(0,-2)),w.href=U?""+w.pathname+w.search+w.hash:o(w);var O=/^(file)/.test(w.href)?["host","hostname"]:[];return Object.keys(w).forEach(function(e){~O.indexOf(e)||(w[e]=w[e]||null)}),w}exports.parse=g,exports.format=o,exports.resolve=n,exports.resolveObject=function(e,t){return g(n(e,t))},exports.Url=l;
 //# sourceMappingURL=index.js.map
 
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/build/polyfills/fetch/index.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/next/dist/build/polyfills/fetch/index.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* globals self */var fetch=self.fetch.bind(self);module.exports=fetch;module.exports.default=module.exports;
 
 /***/ }),
 
@@ -5310,42 +5555,264 @@ module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
-var _jsxFileName = "/Users/allison.mazzetti/Documents/next-doggo/pages/index.js";
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/next/dist/build/polyfills/fetch/index.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__);
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-function Index() {
-  return __jsx("div", {
-    __self: this,
+var _this = undefined,
+    _jsxFileName = "/Users/allison.mazzetti/Documents/next-doggo/pages/index.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+
+
+var key = '';
+var secret = ''; // dog filters
+
+var size = 'large';
+var type = 'dog';
+var status = 'adoptable'; // token vars
+
+var token, tokenType, expires; //renders
+
+var Index = function Index(props) {
+  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 5
+      lineNumber: 16,
+      columnNumber: 2
     }
-  }, __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __self: this,
+  }, __jsx("h1", {
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 7
+      lineNumber: 17,
+      columnNumber: 3
     }
-  }), __jsx("p", {
-    __self: this,
+  }, "Doggos"), __jsx("div", {
+    className: "cards",
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 7
+      lineNumber: 18,
+      columnNumber: 3
     }
-  }, "Hello Next.js"));
-}
+  }, props.doggos.map(function (doggo) {
+    return __jsx("div", {
+      className: "card",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20,
+        columnNumber: 4
+      }
+    }, __jsx("img", {
+      src: "/dog-card.png",
+      className: "dog-img-card",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 10
+      }
+    }), __jsx("h2", {
+      className: "badge",
+      id: "badge",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 10
+      }
+    }), __jsx("div", {
+      className: "dog-info",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 10
+      }
+    }, __jsx("p", {
+      className: "italic-text",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 12
+      }
+    }, doggo.name), __jsx("p", {
+      className: "body-text",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 12
+      }
+    }, doggo.description)), __jsx("div", {
+      className: "dog-data",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 10
+      }
+    }, __jsx("div", {
+      className: "data-section",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 14
+      }
+    }, __jsx("p", {
+      className: "italic-text label",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 16
+      }
+    }, "Size"), __jsx("img", {
+      src: "/paw-size-icon.png",
+      className: "paws",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30,
+        columnNumber: 16
+      }
+    })), __jsx("div", {
+      className: "data-section",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 14
+      }
+    }, __jsx("p", {
+      className: "italic-text label",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 16
+      }
+    }, "Age"), __jsx("p", {
+      className: "results-text",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 16
+      }
+    }, "YOUNG")), __jsx("div", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 14
+      }
+    }, __jsx("p", {
+      className: "italic-text label",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 16
+      }
+    }, "Gender"), __jsx("p", {
+      className: "results-text",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 16
+      }
+    }, "GOOD BOY"), __jsx("img", {
+      src: "/male-icon.png",
+      className: "gender",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39,
+        columnNumber: 16
+      }
+    }))));
+  })));
+};
+
+var getOAuth = function getOAuth() {
+  return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4___default()('https://api.petfinder.com/v2/oauth2/token', {
+    method: 'POST',
+    body: 'grant_type=client_credentials&client_id=' + key + '&client_secret=' + secret,
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded'
+    }
+  }).then(function (response) {
+    return response.json();
+  }).then(function (data) {
+    console.log('token', data);
+    token = data.access_token;
+    tokenType = data.token_type;
+    expires = new Date().getTime() + data.expires_in * 1000;
+  })["catch"](function (err) {
+    console.log('something went wrong...', err);
+  });
+};
+
+Index.getInitialProps = function _callee() {
+  var getAuth, getDoggos, data, doggos;
+  return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function _callee$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+          _context.next = 2;
+          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(getOAuth());
+
+        case 2:
+          getAuth = _context.sent;
+          _context.next = 5;
+          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4___default()('https://api.petfinder.com/v2/animals?size=' + size + '&type=' + type + '&status=' + status, {
+            headers: {
+              'Authorization': tokenType + ' ' + token,
+              'Content-Type': 'application/x-www-form-urlencoded'
+            }
+          }));
+
+        case 5:
+          getDoggos = _context.sent;
+          _context.next = 8;
+          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(getDoggos.json());
+
+        case 8:
+          data = _context.sent;
+          doggos = data.animals;
+          return _context.abrupt("return", {
+            doggos: doggos
+          });
+
+        case 11:
+        case "end":
+          return _context.stop();
+      }
+    }
+  }, null, null, null, Promise);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fallison.mazzetti%2FDocuments%2Fnext-doggo%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************/
@@ -5368,5 +5835,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
