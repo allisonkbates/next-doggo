@@ -5,7 +5,7 @@ import fetch from 'isomorphic-unfetch';
 const key = '';
 const secret = '';
 // dog filters
-const size = 'medium';
+const size = 'large';
 const type = 'dog';
 const status = 'adoptable';
 // token vars
@@ -34,8 +34,8 @@ const Index = props => (
 	          		</div>          
 	          		<div>
 	            		<p className="italic-text label">Gender</p>
-	            		<p className="results-text">{doggo.gender}</p>
-	            		<img src="/male-icon.png" className="gender"></img>
+	            		<p className="results-text">{doggo.gender === 'Male' ? 'Good Boy' : 'Good Girl' }</p>
+	            		<img src={doggo.gender === 'Male' ? '/male-icon.png' : '/female-icon.png'} className="gender"></img>
 	          		</div>
 	       		</div>
 	       	</div>
