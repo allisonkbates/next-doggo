@@ -13,7 +13,31 @@ var token, tokenType, expires;
 const Index = props => (
 	<Layout>
 		<div className="cards">
-			<p>hello cards!</p>
+			{props.doggos.map(doggo => (			
+			<div className="card" key={doggo.id}>	
+		      	<img src={doggo['photos'][0] && doggo['photos'][0]['medium'] ? doggo['photos'][0]['medium'] : '/cheyenne_hero.jpg'} className="dog-img-card"></img>	
+		      	<h2 className="badge">{doggo.name}</h2>	
+		      	<div className="dog-info">	
+		        	<p className="italic-text">{doggo.breeds.primary}</p>	
+		        	<p className="body-text">{doggo.description}</p>	
+		      	</div>	
+		      	<div className="dog-data">	
+		          	<div className="data-section">	
+		            	<p className="italic-text label">{doggo.size}</p>	
+		            	<img src={`/paw-size-icons/${doggo.size}.png`} className="paws"></img>	
+		          	</div>	
+		          	<div className="data-section">	
+		            	<p className="italic-text label">Age</p>	
+		            	<p className="results-text">{doggo.age}</p>	
+		          	</div>          	
+		          	<div>	
+		            	<p className="italic-text label">Gender</p>	
+		            	<p className="results-text">{doggo.gender === 'Male' ? 'Good Boy' : 'Good Girl' }</p>	
+		            	<img src={`/gender-icons/${doggo.gender}.png`} className="gender"></img>	
+		          	</div>	
+		       	</div>	
+	       	</div>	
+	       	))}
        	</div>
        	<style jsx global>{`
 		.cards {
