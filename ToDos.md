@@ -2,8 +2,11 @@
 
 
 ##Updates to Styles
-- Decide how to handle more universal styles: https://nextjs.org/blog/styling-next-with-styled-jsx
-- Decide how to load in fonts
+- Decide how to handle more universal styles: https://nextjs.org/blog/styling-next-with-styled-jsx OR Styled Components OR basic css or Sass files
+- Decide how to load in fonts use react head component or @import
+
+## JS Issues
+- How to handle if petfinder connection fails
 
 
 

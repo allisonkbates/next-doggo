@@ -2,22 +2,20 @@ import Layout from '../components/Layout';
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
 
-const key = '';
-const secret = '';
+const key = process.env.API_KEY;
+const secret = process.env.SECRET;
 // dog filters
-const size = 'large';
 const type = 'dog';
 const status = 'adoptable';
 // token vars
 var token, tokenType, expires;
-var awesomeDog = "/cheyenne_hero.jpg";
 //renders
 const Index = props => (
 	<Layout>
 		<div className="cards">
 			{props.doggos.map(doggo => (
 			<div className="card" key={doggo.id}>
-	      		<img src={doggo['photos'][0] && doggo['photos'][0]['medium'] ? doggo['photos'][0]['medium'] : awesomeDog} className="dog-img-card"></img>
+	      		<img src={doggo['photos'][0] && doggo['photos'][0]['medium'] ? doggo['photos'][0]['medium'] : '/cheyenne_hero.jpg'} className="dog-img-card"></img>
 	      		<h2 className="badge">{doggo.name}</h2>
 	      		<div className="dog-info">
 	        		<p className="italic-text">{doggo.breeds.primary}</p>
@@ -26,7 +24,7 @@ const Index = props => (
 	      		<div className="dog-data">
 	          		<div className="data-section">
 	            		<p className="italic-text label">{doggo.size}</p>
-	            		<img src="/paw-size-icon.png" className="paws"></img>
+	            		<img src={`/paw-size-icons/${doggo.size}.png`} className="paws"></img>
 	          		</div>
 	          		<div className="data-section">
 	            		<p className="italic-text label">Age</p>
@@ -35,7 +33,7 @@ const Index = props => (
 	          		<div>
 	            		<p className="italic-text label">Gender</p>
 	            		<p className="results-text">{doggo.gender === 'Male' ? 'Good Boy' : 'Good Girl' }</p>
-	            		<img src={doggo.gender === 'Male' ? '/male-icon.png' : '/female-icon.png'} className="gender"></img>
+	            		<img src={`/gender-icons/${doggo.gender}.png`} className="gender"></img>
 	          		</div>
 	       		</div>
 	       	</div>
@@ -146,7 +144,7 @@ var getOAuth = function() {
 
 Index.getInitialProps = async function() {
 	const getAuth = await getOAuth();
-	const getDoggos = await fetch('https://api.petfinder.com/v2/animals?size=' + size + '&type=' + type + '&status=' + status, {
+	const getDoggos = await fetch('https://api.petfinder.com/v2/animals?' + 'type=' + type + '&status=' + status, {
 		headers: {
 	  	'Authorization': tokenType + ' ' + token,
 	  	'Content-Type': 'application/x-www-form-urlencoded'
