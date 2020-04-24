@@ -15,6 +15,11 @@ const Header = () => (
 						<a>About</a>
 					</Link>
 				</li>
+				<li>
+					<Link href="/dog">
+						<a>Doggos</a>
+					</Link>
+				</li>
 			</ul>
 		</nav>
 	<style jsx>{`
