@@ -1,3 +1,3 @@
 # Next-Doggo
 
-Using the PetFinder API to get doggos using next.js :) 
+Using next.js & the petfinder api to find the best doggos 🐶
