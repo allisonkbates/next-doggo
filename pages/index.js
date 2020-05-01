@@ -1,5 +1,4 @@
 import Layout from '../components/Layout';
-import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
 
 const key = process.env.API_KEY;
