@@ -8,11 +8,13 @@ const type = 'dog';
 const status = 'adoptable';
 // token vars
 var token, tokenType, expires;
+
 //renders
-const Index = props => (
+function Index({ doggos }) {
+	return (
 	<Layout>
 		<div className="cards">
-			{props.doggos.map(doggo => (			
+			{doggos.map(doggo => (			
 			<div className="card" key={doggo.id}>	
 		      	<img src={doggo['photos'][0] && doggo['photos'][0]['medium'] ? doggo['photos'][0]['medium'] : '/cheyenne_hero.jpg'} className="dog-img-card"></img>	
 		      	<h2 className="badge">{doggo.name}</h2>	
@@ -121,7 +123,8 @@ const Index = props => (
 		}
 		`}</style>
   	</Layout>
-);
+	)
+}
 var getOAuth = function() {
   return fetch('https://api.petfinder.com/v2/oauth2/token', {
   method: 'POST',
@@ -141,7 +144,7 @@ var getOAuth = function() {
   });
 };  
 
-Index.getInitialProps = async function() {
+export async function getStaticProps() {
 	const getAuth = await getOAuth();
 	const getDoggos = await fetch('https://api.petfinder.com/v2/animals?' + 'type=' + type + '&status=' + status, {
 		headers: {
@@ -153,7 +156,9 @@ Index.getInitialProps = async function() {
 	const doggos = data.animals;
 
   return {
-    doggos: doggos
+    props: {
+			doggos
+		}
   };
 };
 
