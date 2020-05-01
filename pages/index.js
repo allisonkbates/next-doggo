@@ -144,7 +144,7 @@ var getOAuth = function() {
   });
 };  
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
 	const getAuth = await getOAuth();
 	const getDoggos = await fetch('https://api.petfinder.com/v2/animals?' + 'type=' + type + '&status=' + status, {
 		headers: {
