@@ -25,7 +25,7 @@ function Index({ doggos }) {
 		      	<div className="dog-data">	
 		          	<div className="data-section">	
 		            	<p className="italic-text label">{doggo.size}</p>	
-		            	<img src={`${doggo.size}.png`} className="paws"></img>	
+		            	<img src={`/${doggo.size}.png`} className="paws"></img>	
 		          	</div>	
 		          	<div className="data-section">	
 		            	<p className="italic-text label">Age</p>	
@@ -34,7 +34,7 @@ function Index({ doggos }) {
 		          	<div>	
 		            	<p className="italic-text label">Gender</p>	
 		            	<p className="results-text">{doggo.gender === 'Male' ? 'Good Boy' : 'Good Girl' }</p>	
-		            	<img src={`${doggo.gender}.png`} className="gender"></img>	
+		            	<img src={`/${doggo.gender}.png`} className="gender"></img>	
 		          	</div>	
 		       	</div>	
 	       	</div>	
