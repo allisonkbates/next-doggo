@@ -1,4 +1,17 @@
-import Layout from '../components/Layout';
+export default function Index() {
+	return (
+		<div>
+			<p>Hello World!</p>
+		<style jsx global>{`	
+			body {
+				margin: 0
+			}
+		`}</style>
+		</div>
+	)
+}
+
+/* import Layout from '../components/Layout';
 import fetch from 'isomorphic-unfetch';
 
 const key = process.env.API_KEY;
@@ -162,4 +175,4 @@ export async function getServerSideProps() {
   };
 };
 
-export default Index;
+export default Index; */
