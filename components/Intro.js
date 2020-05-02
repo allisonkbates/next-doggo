@@ -12,63 +12,63 @@ const StyledIntro = styled.div`
 	}
 	.intro-left {
 	grid-column: 1 / 2;
-}
-.intro-text {
-	font-family: ${props => props.theme.primaryFont};
-	font-weight: normal;
-	color: ${props => props.theme.primaryColor};
-	font-size: 18px;
-	margin: 0px 75px 30px 0px;
-}
-.intro-logo {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-.intro-paws {
-	margin: 0px 25px;
-	height: 78px;
-}
-button {
-	background-color: ${props => props.theme.primaryColor};
-	color: ${props => props.theme.light};
-	font-family: ${props => props.theme.cursiveFont};
-	border: none;
-	font-size: 18px;
-	padding: 0px 25px;
-	height: 40px;
-}
-button:hover {
-	background-color: ${props => props.theme.hoverColor};
-	color: ${props => props.theme.light};
-}
-.intro-right {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.intro-img {
-	background: url("/cover-dog.png") no-repeat;
-	height: 289px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: flex-end;
-	margin: 69px;
-}
-.intro-badge {
-	background-color: ${props => props.theme.primaryColor};
-	color: ${props => props.theme.light};
-	font-family: ${props => props.theme.cursiveFont};
-	font-size: 18px;
-	padding: 0px 25px;
-	height: 40px;
-	width: 190px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0px 194px 20px 0px;
-}
+	}
+	.intro-text {
+		font-family: ${props => props.theme.primaryFont};
+		font-weight: normal;
+		color: ${props => props.theme.primaryColor};
+		font-size: 18px;
+		margin: 0px 75px 30px 0px;
+	}
+	.intro-logo {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.intro-paws {
+		margin: 0px 25px;
+		height: 78px;
+	}
+	button {
+		background-color: ${props => props.theme.primaryColor};
+		color: ${props => props.theme.light};
+		font-family: ${props => props.theme.cursiveFont};
+		border: none;
+		font-size: 18px;
+		padding: 0px 25px;
+		height: 40px;
+	}
+	button:hover {
+		background-color: ${props => props.theme.hoverColor};
+		color: ${props => props.theme.light};
+	}
+	.intro-right {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.intro-img {
+		background: url("/cover-dog.png") no-repeat;
+		height: 289px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: flex-end;
+		margin: 69px;
+	}
+	.intro-badge {
+		background-color: ${props => props.theme.primaryColor};
+		color: ${props => props.theme.light};
+		font-family: ${props => props.theme.cursiveFont};
+		font-size: 18px;
+		padding: 0px 25px;
+		height: 40px;
+		width: 190px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0px 194px 20px 0px;
+	}
 `;
 
 const Intro = () => (

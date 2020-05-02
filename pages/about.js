@@ -1,7 +1,8 @@
-const About = props => (
+const BestDogs = props => (
   <div>
-    <p>Hello World 123</p>
+    <div>Placeholder for Data Filters</div>
+    <div>Placeholder for Cards</div>
   </div>
 );
 
-export default About;
+export default BestDogs;

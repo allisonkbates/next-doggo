@@ -1,9 +1,6 @@
 const CardLayout = () => (
 	<div>
 
-	<style jsx>{`
-
-	`}</style>
 	</div>
 );
 

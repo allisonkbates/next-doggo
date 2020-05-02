@@ -2,8 +2,6 @@
 
 
 ## Updates to Styles
-- Update Intro & Header component with styled components
-- Update any other global or themeing styles
 
 ## JS Issues
 - Separate out logic to get oAuth etc. to a separate file
@@ -16,3 +14,6 @@
 
 
 ## Snippets
+
+
+## Dogs to Add

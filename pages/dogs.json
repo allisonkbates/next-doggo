@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Cheyenne",
+    "image": "/cheyenne/hero.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sierra",
+    "image": "/dog-card2.png"
+  },
+  {
+  "id": 3,
+  "name": "Sierra",
+  "image": "/dog-card3.png"
+	},
+	{
+		"id": 4,
+		"name": "Scout",
+		"image": "/dog-card4.png"
+	}
+]
