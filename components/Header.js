@@ -1,7 +1,36 @@
 import Link from 'next/link';
+import styled from 'styled-components';
+
+const StyledHeader = styled.div`
+	height: 75px;
+	margin: 0px;
+	padding: 0px 82px; 
+	background-color: ${props => props.theme.primaryColor};
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	nav {
+		align-items: center;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+	}
+	li a {
+		padding-left: 12px;
+		font-family: ${props => props.theme.primaryFont};
+		font-weight: 300;
+		font-size: 18px;
+		text-decoration: none;
+		color: #ffffff;
+	}
+`;
 
 const Header = () => (
-	<div>
+	<StyledHeader>
 		<img src="/dog-icon.png"></img> {/* A JSX comment */}
 		<nav>
 			<ul>
@@ -17,38 +46,7 @@ const Header = () => (
 				</li>
 			</ul>
 		</nav>
-	<style jsx>{`
-		div {
-			height: 75px;
-			margin: 0px;
-			padding: 0px 82px; 
-			background-color: #4ABDAC;
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-			align-items: center;
-		}
-		nav {
-			align-items: center;
-		}
-		ul {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-			display: flex;
-		}
-		li a {
-			padding-left: 12px;
-			font-family: 'Arial';
-			font-weight: 300;
-			font-size: 18px;
-			text-decoration: none;
-			color: #ffffff;
-		}
-		li:hover {
-		}
-	`}</style>
-	</div>
+	</StyledHeader>
 );
 
 export default Header;

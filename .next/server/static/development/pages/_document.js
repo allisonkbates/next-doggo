@@ -904,61 +904,29 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
-  static getInitialProps({
-    renderPage
-  }) {
+  static async getInitialProps(ctx) {
     const sheet = new styled_components__WEBPACK_IMPORTED_MODULE_2__["ServerStyleSheet"]();
-    const page = renderPage(App => props => sheet.collectStyles(__jsx(App, _extends({}, props, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 7,
-        columnNumber: 65
-      }
-    }))));
-    const styleTags = sheet.getStyleElement();
-    return _objectSpread({}, page, {
-      styleTags
-    });
-  }
+    const originalRenderPage = ctx.renderPage;
 
-  render() {
-    return __jsx("html", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 14,
-        columnNumber: 7
-      }
-    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Head"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 15,
-        columnNumber: 9
-      }
-    }, this.props.styleTags), __jsx("body", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 16,
-        columnNumber: 9
-      }
-    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 17,
-        columnNumber: 11
-      }
-    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 18,
-        columnNumber: 11
-      }
-    })));
+    try {
+      ctx.renderPage = () => originalRenderPage({
+        enhanceApp: App => props => sheet.collectStyles(__jsx(App, _extends({}, props, {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 12,
+            columnNumber: 59
+          }
+        })))
+      });
+
+      const initialProps = await next_document__WEBPACK_IMPORTED_MODULE_1___default.a.getInitialProps(ctx);
+      return _objectSpread({}, initialProps, {
+        styles: __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, initialProps.styles, sheet.getStyleElement())
+      });
+    } finally {
+      sheet.seal();
+    }
   }
 
 }
