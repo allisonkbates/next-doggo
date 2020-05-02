@@ -411,12 +411,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const theme = {
-  primary: '#4ABDAC'
+  primary: '#4ABDAC',
+  hoverColor: '#2F8377',
+  white: '#ffffff'
 };
-const StyledLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div`
-	background: white;
-	color: ${props => props.theme.primary};
-`;
+const StyledLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Layout__StyledLayout",
+  componentId: "sc-7egh2b-0"
+})(["background:white;color:", ";"], props => props.theme.primary);
 
 class Layout extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
@@ -425,45 +427,31 @@ class Layout extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20,
+        lineNumber: 22,
         columnNumber: 4
       }
     }, __jsx(StyledLayout, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
+        lineNumber: 23,
         columnNumber: 5
       }
     }, __jsx(_Meta__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 24,
         columnNumber: 6
       }
     }), __jsx(_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
-        columnNumber: 6
-      }
-    }), __jsx(_Intro__WEBPACK_IMPORTED_MODULE_4__["default"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 24,
-        columnNumber: 6
-      }
-    }), __jsx(_CardLayout__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 25,
         columnNumber: 6
       }
-    }, this.props.children)));
+    }), this.props.children));
   }
 
 }

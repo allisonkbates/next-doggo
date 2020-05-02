@@ -1,15 +1,12 @@
-export default function Index() {
-	return (
+import Intro from '../components/Intro';
+
+const Index = props => (
 		<div>
-			<p>Hello World!</p>
-		<style jsx global>{`	
-			body {
-				margin: 0
-			}
-		`}</style>
+		<Intro />
 		</div>
-	)
-}
+);
+
+export default Index;
 
 /* import Layout from '../components/Layout';
 import fetch from 'isomorphic-unfetch';

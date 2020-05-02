@@ -6,7 +6,9 @@ import Intro from './Intro';
 import CardLayout from './CardLayout';
 
 const theme = {
-	primary: '#4ABDAC'
+	primary: '#4ABDAC',
+	hoverColor: '#2F8377',
+	white: '#ffffff'
 };
 
 const StyledLayout = styled.div`
@@ -21,8 +23,7 @@ class Layout extends Component {
 				<StyledLayout>
 					<Meta />
 					<Header />
-					<Intro />
-					<CardLayout>{this.props.children}</CardLayout>
+					{this.props.children}
 				</StyledLayout>
 			</ThemeProvider>
 		)

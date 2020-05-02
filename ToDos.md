@@ -2,9 +2,8 @@
 
 
 ## Updates to Styles
-- Update with styled components
-- Determine global Styles
-- Determine "theming"
+- Update Intro & Header component with styled components
+- Update any other global or themeing styles
 
 ## JS Issues
 - Separate out logic to get oAuth etc. to a separate file
